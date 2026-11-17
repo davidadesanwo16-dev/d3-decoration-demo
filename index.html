@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>D3 Interior and Exterior Decoration</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <h2>D3</h2>
+                <span>Interior &amp; Exterior Decoration</span>
+            </div>
+
+            <button class="menu-toggle" id="menu-toggle"
+                type="button" aria-label="Open navigation menu"
+                aria-expanded="false" aria-controls="nav-links">
+                <i class="fa-solid fa-bars" id="menu-icon"></i>
+            </button>
+
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#paints">Our Paints</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="menu-overlay" id="menu-overlay"></div>
+
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1>Transforming Spaces, One Brushstroke at a Time.</h1>
+
+            <p>
+                From beautiful interior finishes to durable exterior
+                painting, D3 brings colour and life to your spaces.
+            </p>
+
+            <a href="#contact" class="hero-btn">Get In Touch</a>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-image">
+            <img src="images/about-d3.jpg" alt="A beautifully finished Nigerian home">
+        </div>
+
+        <div class="about-content">
+            <p class="section-label">WHO WE ARE</p>
+            <h2>Bringing Your Spaces to Life</h2>
+
+            <p>
+                At D3 Interior and Exterior Decoration, we believe that
+                the right colours and finishes can transform any space.
+                We provide interior and exterior decoration services and
+                produce our own range of paints to help bring your ideas
+                to life.
+            </p>
+
+            <a href="#services" class="about-btn">Explore Our Services</a>
+        </div>
+    </section>
+
+    <section class="services" id="services">
+        <div class="section-heading">
+            <p class="section-label">WHAT WE DO</p>
+            <h2>Our Services</h2>
+            <p>Decoration solutions to give your space a fresh new look.</p>
+        </div>
+
+        <div class="service-container">
+            <div class="service-card">
+                <div class="service-icon">01</div>
+                <h3>Interior Decoration</h3>
+                <p>
+                    Give your indoor spaces a beautiful finish with
+                    carefully selected colours and decorative touches.
+                </p>
+            </div>
+
+            <div class="service-card">
+                <div class="service-icon">02</div>
+                <h3>Exterior Painting</h3>
+                <p>
+                    Refresh the outside of your building with colours
+                    that give your property a welcoming appearance.
+                </p>
+            </div>
+
+            <div class="service-card">
+                <div class="service-icon">03</div>
+                <h3>Paint Production</h3>
+                <p>
+                    Explore D3 paint options, including emulsion,
+                    satin and gloss finishes.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="paints" id="paints">
+    <div class="section-heading">
+        <p class="section-label">OUR PRODUCTS</p>
+        <h2>Colours That Shape Your Space</h2>
+        <p>Explore the D3 paint options available for your home and projects.</p>
+    </div>
+
+    <div class="paint-showcase">
+        <div class="paint-image">
+            <img src="images/d3-paints.jpg" alt="D3 emulsion, satin and gloss paint buckets">
+        </div>
+
+        <div class="paint-details">
+            <article class="paint-item">
+                <span class="paint-number">01</span>
+                <div>
+                    <h3>Emulsion Paint</h3>
+                    <p>A paint option for interior walls and ceilings. Contact D3 to ask about available colours and sizes.</p>
+                </div>
+            </article>
+
+            <article class="paint-item">
+                <span class="paint-number">02</span>
+                <div>
+                    <h3>Satin Paint</h3>
+                    <p>A smooth-finish option for spaces that need a neat and refined look. Ask about available options.</p>
+                </div>
+            </article>
+
+            <article class="paint-item">
+                <span class="paint-number">03</span>
+                <div>
+                    <h3>Gloss Paint</h3>
+                    <p>A glossy paint option for selected surfaces. Contact D3 for product details and availability.</p>
+                </div>
+            </article>
+
+            <a href="#contact" class="paint-btn">Enquire About Our Paints</a>
+        </div>
+    </div>
+</section>
+
+<section class="why-d3" id="why-d3">
+    <div class="why-content">
+        <p class="section-label">WHY CHOOSE D3</p>
+        <h2>One Name for Paint and Decoration.</h2>
+        <p>From paint production to transforming homes and business spaces, D3 brings these services together in one place.</p>
+        <a href="#contact" class="why-btn">Talk to D3</a>
+    </div>
+
+    <div class="why-points">
+        <article class="why-item">
+            <span>01</span>
+            <div>
+                <h3>Paint Products</h3>
+                <p>Explore D3 emulsion, satin and gloss paint options.</p>
+            </div>
+        </article>
+
+        <article class="why-item">
+            <span>02</span>
+            <div>
+                <h3>Interior and Exterior Decoration</h3>
+                <p>Decoration services for different types of spaces.</p>
+            </div>
+        </article>
+
+        <article class="why-item">
+            <span>03</span>
+            <div>
+                <h3>Direct Enquiries</h3>
+                <p>Get in touch with D3 to discuss your painting or decoration needs.</p>
+            </div>
+        </article>
+    </div>
+</section>
+
+<section class="projects" id="projects">
+    <div class="section-heading">
+        <p class="section-label">OUR WORK</p>
+        <h2>Spaces We Help Transform</h2>
+        <p>
+            Explore examples of interior and exterior design
+            styles that can inspire your next project.
+        </p>
+    </div>
+
+    <div class="project-grid">
+        <figure class="project-card">
+            <img src="images/project-2.jpg" alt="Exterior painting project on a Nigerian home">
+            <figcaption>
+                <h3>Exterior Painting</h3>
+                <p>Fresh finishes for building exteriors.</p>
+            </figcaption>
+        </figure>
+
+        <figure class="project-card">
+            <img src="images/project-1.jpg" alt="A modern living room with a cream sofa, navy blue cushions and elegant wall artwork">
+            <figcaption>
+                <h3>Interior Decoration</h3>
+                <p>Interior spaces with a refreshed look.</p>
+            </figcaption>
+        </figure>
+
+        <figure class="project-card">
+            <img src="images/project-3.png" alt="A modern living room featuring a cream sofa, navy cushions and framed wall artwork">
+            <figcaption>
+                <h3>Residential Spaces</h3>
+                <p>Painting work for homes and living spaces.</p>
+            </figcaption>
+        </figure>
+    </div>
+</section>
+
+<section class="contact" id="contact">
+    <div class="contact-heading">
+        <p class="section-label">GET IN TOUCH</p>
+        <h2>Let's Talk About Your Next Project</h2>
+        <p>Need paint products or decoration services? Contact D3 and let's discuss what you have in mind.</p>
+    </div>
+
+    <div class="contact-content">
+        <div class="contact-text">
+            <h3>We'd Be Glad to Hear From You</h3>
+            <p>Reach out to make an enquiry about D3 paints, interior decoration or exterior painting.</p>
+
+            <div class="contact-detail">
+                <span class="contact-icon">☎</span>
+                <div>
+                    <h4>Phone</h4>
+                    <p>[ +2347021476684 ]</p>
+                </div>
+            </div>
+
+            <div class="contact-detail">
+                <span class="contact-icon">✉</span>
+                <div>
+                    <h4>Email</h4>
+                    <p>[d3business@gmail.com]</p>
+                </div>
+            </div>
+
+            <div class="contact-detail">
+                <span class="contact-icon"><i class="fa-solid fa-location-dot"></i></span>
+                <div>
+                    <h4>Location</h4>
+                    <p>[2-5 Abolaji Street, Lagos, Nigeria]</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="contact-cta">
+            <p class="cta-small">HAVE A PROJECT IN MIND?</p>
+            <h3>Let's make your space look its best.</h3>
+            <p>Send D3 a message to ask about products, services and project enquiries.</p>
+            <a class="contact-btn" href="#" target="_blank" rel="noopener">
+                <i class="fab fa-whatsapp"></i>
+                Chat on WhatsApp
+            </a>
+            <a href="#" class="email-btn">
+                <i class="fa-solid fa-envelope"></i>
+                Send an Email
+            </a>
+        </div>
+    </div>
+</section>
+
+<footer class="footer">
+    <div class="footer-main">
+        <div class="footer-brand">
+            <a href="#home" class="footer-logo">D<span>3</span></a>
+            <p>Interior and Exterior Decoration</p>
+            <p class="footer-description">Paint products and decoration services for spaces that feel like yours.</p>
+        </div>
+
+        <div class="footer-links">
+            <h3>Quick Links</h3>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#paints">Our Paints</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </div>
+
+        <div class="footer-contact">
+            <h3>Get in Touch</h3>
+            <p>[Add D3 business phone number]</p>
+            <p>[Add D3 business email]</p>
+            <a href="#contact">Send an Enquiry</a>
+        </div>
+    </div>
+
+    <div class="footer-bottom">
+        <p>&copy; 2026 D3 Interior and Exterior Decoration. All rights reserved.</p>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
